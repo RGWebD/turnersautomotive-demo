@@ -345,7 +345,7 @@ p{margin:0 0 1em}
 .fact .ic{width:44px;height:44px;flex:none;display:grid;place-items:center;background:var(--red);color:#fff;clip-path:polygon(7px 0,100% 0,calc(100% - 7px) 100%,0 100%)}.fact .ic svg{width:22px;height:22px}
 .fact b{display:block;font:800 .74rem/1 var(--disp);letter-spacing:.16em;text-transform:uppercase;color:#9FB0C6;margin-bottom:6px}
 .fact a{text-decoration:none}.fact a:hover{color:var(--red2)}
-.bigtel{font:900 clamp(26px,8.4vw,40px)/1 var(--disp);font-stretch:112%;font-style:italic}
+.bigtel{font:900 clamp(24px,7vw,40px)/1 var(--disp);font-stretch:112%;font-style:italic;white-space:nowrap}
 .hours{width:100%;border-collapse:collapse;margin-top:6px}
 .hours th,.hours td{padding:10px 0;border-bottom:1px solid var(--lineD);text-align:left;font-weight:500}
 .hours td{text-align:right;color:#C9D1DD}
@@ -447,6 +447,7 @@ p{margin:0 0 1em}
  .rsum{grid-template-columns:1fr}
  .map,.map iframe{min-height:340px}
  .cta .phone{font-size:clamp(26px,9vw,40px)}
+ .bigtel{font-stretch:100%}
 }
 @media (prefers-reduced-motion:reduce){
  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
