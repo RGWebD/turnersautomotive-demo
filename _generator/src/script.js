@@ -52,6 +52,11 @@ if(lights){let seen=false;try{seen=sessionStorage.getItem('ta-lights')==='1';ses
   const tm=setTimeout(finish,T);lights.addEventListener('click',()=>{clearTimeout(tm);finish()},{once:true})}}
 else goHero();
 
+/* hotspot labels: flip to open leftward (or back) so they always stay inside the viewport */
+function fitHs(){const vw=root.clientWidth;$$('.hs').forEach(h=>{const l=$('.hl',h);if(!l)return;const d=$('.dot',h).getBoundingClientRect();const w=l.offsetWidth+14;
+ if(d.right+w>vw-8&&d.left-w>=8)h.classList.add('rev');else if(d.left-w<8)h.classList.remove('rev')})}
+fitHs();addEventListener('resize',fitHs);addEventListener('load',fitHs);
+
 /* parallax */
 const px=$$('[data-px]');
 if(!RM&&px.length){const tick=()=>{px.forEach(el=>{const r=el.parentElement.getBoundingClientRect();if(r.bottom<-100||r.top>innerHeight+100)return;const f=+el.dataset.px;const c=r.top+r.height/2-innerHeight/2;el.style.transform=`translate3d(0,${(c*-f).toFixed(1)}px,0)`})};

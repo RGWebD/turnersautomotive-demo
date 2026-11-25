@@ -63,7 +63,7 @@ def footer():
 <address style="font-style:normal"><a href="{DIR}" target="_blank" rel="noopener">{ADDR}</a><br><a href="{TEL}">{PHONE}</a></address></div>
 <div><h4>Pages</h4><ul>{pages}</ul></div><div><h4>Services</h4><ul>{sv}</ul></div><div><h4>Hours</h4><ul><li>Mon–Fri: 8 AM – 5 PM</li><li>Sat–Sun: Closed</li><li class="muted" style="font-size:.85rem">Eastern Time · holiday hours may vary</li></ul><h4 style="margin-top:22px">Find us</h4><ul><li><a href="{GLIST}" target="_blank" rel="noopener">Google Maps listing</a></li><li><a href="{FB}" target="_blank" rel="noopener">Facebook</a></li></ul></div>
 </div><div class="bigword" aria-hidden="true">Turner’s</div><div class="legal"><span>© 2026 {LEGAL}. All rights reserved.</span><span>Design preview by RGWebD</span></div></div></footer>
-<div class="mbar">{btn_call('', 'Call now')}{btn_est()}</div>
+<div class="mbar">{btn_call('', 'Call now')}<a class="btn mag ghost" href="contact.html#estimate">{I["msg"]}<span class="lbl">Estimate</span></a></div>
 <div class="demo" role="note">Design preview by RGWebD<button type="button" aria-label="Dismiss preview note">×</button></div>'''
 def lightbox(): return f'<div class="tlb" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true"><figure><img alt=""><p></p></figure><button class="x1" type="button" aria-label="Close">{I["x"]}</button><button class="pv" type="button" aria-label="Previous photo">{I["left"]}</button><button class="nx" type="button" aria-label="Next photo">{I["arrow"]}</button></div>'
 
@@ -140,9 +140,9 @@ home=f'''<div class="lights" aria-hidden="true"><div class="rig">{pods}</div><p>
 <div class="ctas fade d2">{btn_call()}{btn_est()}</div>
 <div class="trust fade d3"><a class="chip" href="{GLIST}" target="_blank" rel="noopener">{pstars()} {RATING} from {COUNT} Google reviews</a>{STATUS}</div></div></div>
 <div class="wind"><div class="ph">{pic("g01",sizes="(max-width:640px) 100vw, 1240px",eager=True)}</div><span class="stripe" aria-hidden="true"></span>
-<div class="hs" style="--x:12%;--y:41%;--ym:45%"><a href="services.html#transmissions"><span class="dot"></span><span class="hl">Transmission shop</span></a></div>
-<div class="hs" style="--x:43%;--y:35%;--ym:40%"><a href="services.html#alignment"><span class="dot"></span><span class="hl">Wheel alignment</span></a></div>
-<div class="hs rev" style="--x:63%;--y:62%;--ym:58%"><a href="services.html#models"><span class="dot"></span><span class="hl">Trucks &amp; 4×4s</span></a></div>
+<div class="hs" style="--x:12%;--y:41%;--ym:48%"><a href="services.html#transmissions"><span class="dot"></span><span class="hl">Transmission shop</span></a></div>
+<div class="hs" style="--x:43.5%;--y:30%;--ym:36%"><a href="services.html#alignment"><span class="dot"></span><span class="hl">Wheel alignment</span></a></div>
+<div class="hs rev" style="--x:63%;--y:62%;--ym:63%"><a href="services.html#models"><span class="dot"></span><span class="hl">Trucks &amp; 4×4s</span></a></div>
 <a class="rate-card" href="reviews.html"><span class="big">{RATING}</span><span>{pstars()}<small>{COUNT} Google reviews</small></span></a></div></div></section>
 <div class="ticker" aria-hidden="true"><ul>{tick}{tick}</ul></div>
 <section class="sec"><div class="wrap"><div class="head"><div><p class="kicker">What we fix</p><h2 class="split-h">Pick a <span class="red">gear.</span></h2></div><p>Every service here comes from the shop’s own site, its Google profile and what customers describe in their reviews. Tap a gear to shift.</p></div>
