@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rgwebd.github.io/turnersautomotive-demo/sitemap.xml

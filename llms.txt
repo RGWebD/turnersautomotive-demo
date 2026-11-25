@@ -1,0 +1,21 @@
+# Turner’s Automotive
+
+> Auto repair and transmission shop at 135 Commercial Cir, Keystone Heights, FL 32656. Phone (352) 473-3404. Open Monday–Friday 8 AM–5 PM Eastern Time, closed Saturday and Sunday (Google flags Thanksgiving and the day after as "hours might differ"). Rated 4.7 stars from 247 Google reviews. Legal name on its Google photos: Turner’s Auto LLC. Also known as "Turner’s Automotive & Transmission".
+
+## Key facts
+- Category: Car repair and maintenance service (AutoRepair)
+- Services (from the shop's own site, keystone-auto-repair.com, April 2026 archive): transmissions; differentials and gearboxes; radiator and coolant system repair; A/C and heating repair; brakes, shocks and struts; carburetor, fuel injection and fuel pump repair; check engine / service engine soon lights; electrical repair (battery, starter, alternator, generator); filters, fluids, belts and hoses; oil change, lube and tune-up; alignments
+- Vehicles: domestic and import cars and trucks, vans, 4×4s and special interest vehicles
+- Service area (from their site): Keystone Heights and Northeast & Central Florida
+- Google attributes: wheelchair accessible entrance and parking; onsite services; oil change; credit and debit cards; LGBTQ+ friendly
+- Reviewers describe a night drop slot for after-hours drop-offs (unconfirmed by the shop)
+- No email, prices, warranties or certifications are published
+- Google Maps: https://www.google.com/maps/place/TURNER%E2%80%99S+AUTOMOTIVE/@29.7842377,-82.0284394,17z/data=!3m1!4b1!4m6!3m5!1s0x88e60f70cee715e9:0x8879cd5ee60d667d!8m2!3d29.7842377!4d-82.0258645!16s%2Fg%2F1v75sqx7
+- Facebook: https://www.facebook.com/people/Turner-Automotive-Transmission-AKA-The-Transmission-Repair-Shop/100063788893662/
+
+## Pages
+- [Home](https://rgwebd.github.io/turnersautomotive-demo/): overview, interactive service selector, why customers choose the shop, reviews
+- [Services](https://rgwebd.github.io/turnersautomotive-demo/services.html): every service in detail and how a repair works
+- [The Shop](https://rgwebd.github.io/turnersautomotive-demo/shop.html): the shop's story (from its own site), visitor info and a photo gallery
+- [Reviews](https://rgwebd.github.io/turnersautomotive-demo/reviews.html): 4.7★ from 247 Google reviews, ten quoted verbatim
+- [Contact](https://rgwebd.github.io/turnersautomotive-demo/contact.html): map, hours, phone, estimate form and FAQ
